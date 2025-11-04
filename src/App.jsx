@@ -30,7 +30,7 @@ export const App = () => {
       <button onClick={onClickCountUp}>カウントアップ</button>
       <p>{num}</p>
       <button onClick={onClickToggle}>on/off</button>
-      {isShowFace && <p>(´・ω・`)</p>}
+      {isShowFace && <p>( ﾟДﾟ)</p>}
     </>
   );
 };
